@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost/marioS/wsM?WSDL" uri="xml-resources/web-service-references/wsM/wsdl/localhost/marioS/wsM.wsdl"/>
+    <system systemId="http://localhost:80/marioS/wsM?xsd=1" uri="xml-resources/web-service-references/wsM/wsdl/localhost_80/marioS/wsM.xsd_1.xsd"/>
+    <system systemId="http://localhost/serviceM/wsM?WSDL" uri="xml-resources/web-service-references/wsM/wsdl/localhost/serviceM/wsM.wsdl"/>
+    <system systemId="http://localhost:80/serviceM/wsM?xsd=1" uri="xml-resources/web-service-references/wsM/wsdl/localhost_80/serviceM/wsM.xsd_1.xsd"/>
+    <system systemId="http://localhost/erickws/eWS?WSDL" uri="xml-resources/web-service-references/eWS/wsdl/localhost/erickws/eWS.wsdl"/>
+    <system systemId="http://localhost:80/erickws/eWS?xsd=1" uri="xml-resources/web-service-references/eWS/wsdl/localhost_80/erickws/eWS.xsd_1.xsd"/>
+</catalog>

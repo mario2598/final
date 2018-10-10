@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebamariocliente.FXMLDocumentController">
+    <children>
+      <JFXTextField fx:id="txtA" layoutX="14.0" layoutY="23.0" promptText="num a" />
+      <JFXTextField fx:id="txtB" layoutX="14.0" layoutY="71.0" promptText="num b" />
+      <JFXButton layoutX="34.0" layoutY="141.0" onAction="#sumar" text="Sumar" />
+      <JFXButton layoutX="191.0" layoutY="141.0" onAction="#restar" text="Restar" />
+    </children>
+</AnchorPane>
