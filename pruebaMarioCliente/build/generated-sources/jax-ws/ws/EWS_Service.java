@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "eWS", targetNamespace = "http://ws/", wsdlLocation = "http://localhost/erickws/eWS?WSDL")
+@WebServiceClient(name = "eWS", targetNamespace = "http://ws/", wsdlLocation = "http://172.17.32.29/erickws/eWS?WSDL")
 public class EWS_Service
     extends Service
 {
@@ -30,7 +30,7 @@ public class EWS_Service
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost/erickws/eWS?WSDL");
+            url = new URL("http://172.17.32.29/erickws/eWS?WSDL");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

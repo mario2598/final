@@ -30,7 +30,7 @@
 </binding>
 <service name="eWS">
 <port name="eWSPort" binding="tns:eWSPortBinding">
-<soap:address location="http://172.17.32.29:80/erickws/eWS"/>
+<soap:address location="http://localhost:80/erickws/eWS"/>
 </port>
 </service>
 </definitions>

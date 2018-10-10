@@ -9,7 +9,7 @@
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
     <jar href="lib\jfoenix.jar" size="2372209" download="eager" />
-    <jar href="pruebaMarioCliente.jar" size="14811" download="eager" />
+    <jar href="pruebaMarioCliente.jar" size="14807" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="pruebaMarioCliente" >
     <param name="requiredFXVersion" value="8.0+"/>
